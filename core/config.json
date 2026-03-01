@@ -1,0 +1,12 @@
+{
+    "video_path": "crowd_video.mp4",
+    "zone_area": 25,
+    "risk_thresholds": {
+        "safe": 2,
+        "warning": 4,
+        "high": 6
+    },
+    "sla_limit": 5,
+    "enable_failure_mode": false,
+    "location_name": "Chennai Marina Beach"
+}
