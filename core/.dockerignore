@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.pt
+system_logs/
+crowd_video.mp4 
