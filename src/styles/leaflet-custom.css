@@ -1,0 +1,55 @@
+/* Leaflet custom styles */
+.leaflet-container {
+  font-family: 'Inter', sans-serif;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.leaflet-popup-tip {
+  background: #ffffff;
+}
+
+/* Fix for marker icons */
+.leaflet-marker-icon {
+  border: none !important;
+  background: transparent !important;
+}
+
+.leaflet-div-icon {
+  background: transparent;
+  border: none;
+}
+
+/* Pulsing animation for critical markers */
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+}
+
+/* Custom scrollbar for map controls */
+.leaflet-container ::-webkit-scrollbar {
+  width: 8px;
+}
+
+.leaflet-container ::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+.leaflet-container ::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 4px;
+}
+
+.leaflet-container ::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
